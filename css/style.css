@@ -73,7 +73,7 @@ header a{
 
 /* CARD in Intro Section*/
 #intro{
-    padding-bottom: 5rem;
+    padding: 1rem 3rem;
 }
 .box-card{
     background-color: var(--light-blue);
@@ -118,16 +118,16 @@ header a{
 
 #planning{
     color: var(--white);
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
 }
 
 #planning h2{
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-size: 3rem;
 }
 
 #planning p {
-    padding-bottom: 3rem;
+    padding: 2rem 0rem;
 }
 
 #planning div {
@@ -152,4 +152,56 @@ header a{
     background-color: var(--purple);
     padding: 1rem;
     border-radius: 2rem;
+}
+
+/* Testimonials Section*/
+#testimonials{
+    padding: 1rem 3rem;
+}
+.testimonials-text{
+    text-align: center;
+}
+
+.testimonials-text h2{
+    color: var(--purple);
+    padding: 2rem 3rem;
+    font-size: 3rem;
+}
+
+.testimonials-text p{
+    padding: 0rem 4.5rem 3rem 4.5rem;
+    font-size: 1.5rem;
+}
+
+.purple-card{
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    border-radius: 35px;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.circular{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular img {
+width: auto;
+height: 100%;
+margin-left: -50px;
+}
+
+.description p{
+    font-size: 18px;
+    padding: 20px 60px;
+}
+
+.description-name{
+    font-weight: bold;
 }
