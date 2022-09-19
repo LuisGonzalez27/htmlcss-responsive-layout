@@ -67,7 +67,7 @@ header a{
 }
 
 /* MAIN */
-#planning, #features , #get-stared{
+#planning, #features , #get-started{
     background: var(--purple);
 }
 
@@ -277,4 +277,54 @@ margin-left: -50px;
     color: var(--purple);
     font-size: 50px;
     padding-top: 30px;
+}
+
+/* GeT stared Section */
+#get-started{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#get-started h3{
+    color: var(--dark-grey);
+    font-size: 18px;
+}
+
+#get-started h2{
+    color: var(--white);
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+}
+
+#get-started h1{
+    color: var(--yelow);
+    font-size: 50px;
+}
+
+#get-started p {
+    color: var(--white);
+    font-size: 22px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#get-started .copyright , .copyright a:visited , .copyright a:link {
+    color: white;
+}
+
+.copyright ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: auto;
+}
+
+.copyright ul li {
+    margin-right: 20px;
+    font-size: 12px;
 }
