@@ -67,7 +67,7 @@ header a{
 }
 
 /* MAIN */
-#planning, #feature , #get-stared{
+#planning, #features , #get-stared{
     background: var(--purple);
 }
 
@@ -204,4 +204,43 @@ margin-left: -50px;
 
 .description-name{
     font-weight: bold;
+}
+
+/* Feactures Section*/
+#features{
+    padding: 0 3rem;
+}
+
+#features h2{
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 5rem;
+    font-size: 40px;
+}
+
+.white-card {
+    background-color: var(--white);
+    color: var(--dark-grey);
+    border-radius: 35px;
+    padding: 20px 60px;
+    margin-bottom: 1.5rem;
+}
+
+.white-card span, .white-card h3{
+    color: var(--purple);
+}
+
+.white-card span{
+    font-size: 60px;
+}
+
+.white-card h3{
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.white-card p{
+    font-size: 20px;
+    color: var(--dark-grey);
+    line-height: 1.5;
 }
