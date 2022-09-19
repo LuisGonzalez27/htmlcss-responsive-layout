@@ -208,7 +208,7 @@ margin-left: -50px;
 
 /* Feactures Section*/
 #features{
-    padding: 0 3rem;
+    padding: 1rem 3rem;
 }
 
 #features h2{
@@ -243,4 +243,38 @@ margin-left: -50px;
     font-size: 20px;
     color: var(--dark-grey);
     line-height: 1.5;
+}
+
+/* About Us Section */
+#about-us{
+    padding: 1rem 3rem;
+}
+
+#about-us h1{
+    color: var(--purple);
+    font-size: 70px;
+    padding: 40px 0;
+}
+
+#about-us p{
+    font-size: 22px;
+    line-height: 2;
+}
+
+.about-image{
+    padding-top: 50px;
+}
+
+.about-image img{
+    width: 50%;
+}
+
+.circular-square{
+    border-radius: 50%;
+}
+
+.about-image h3{
+    color: var(--purple);
+    font-size: 50px;
+    padding-top: 30px;
 }
