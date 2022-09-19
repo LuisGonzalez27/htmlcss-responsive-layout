@@ -24,6 +24,9 @@ body{
     background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
 }
+.text-center{
+    text-align: center;
+}
 /* CONTAINER */
 .container{
     max-width: 600px;
@@ -69,6 +72,9 @@ header a{
 }
 
 /* CARD in Intro Section*/
+#intro{
+    padding-bottom: 5rem;
+}
 .box-card{
     background-color: var(--light-blue);
     border-radius: 20px;
@@ -93,4 +99,57 @@ header a{
     width: 100%;
 }
 
+#intro .fa-solid{
+    font-size: 120px;
+    color: var(--blue);
+    padding-top: 40px;
+}
+
+.small{
+    text-align: center;
+    padding: 0 6rem;
+    line-height: 1.5;
+}
+
 /* Planning Section*/
+#planning img{
+    width: 80%;
+}
+
+#planning{
+    color: var(--white);
+    padding: 3rem 2rem;
+}
+
+#planning h2{
+    padding: 3rem 0;
+    font-size: 3rem;
+}
+
+#planning p {
+    padding-bottom: 3rem;
+}
+
+#planning div {
+    background-color: var(--white);
+    border-radius: 5rem;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--black);
+}
+
+#planning div p {
+    text-align: center;
+    padding: 0 2rem; 
+    line-height: 1.5;
+}
+
+#planning .cerchio {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    background-color: var(--purple);
+    padding: 1rem;
+    border-radius: 2rem;
+}
