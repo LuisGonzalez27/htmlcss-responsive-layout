@@ -464,11 +464,27 @@ footer a:link , footer a:visited{
         max-width: 900px;
     }
 
+    /* HEADER */
     .hamburger {
         display: none;
     }
 
     .nav-menu{
-        display:block;
+        display: block;
+    }
+    
+    /* Intro Section */
+    #intro .container .card:first-of-type {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #intro .sx-get {
+        flex-basis: 60%;
+        padding-bottom: 30%;
+    }
+
+    #intro .dx-get {
+        width: 80%;
     }
 }
