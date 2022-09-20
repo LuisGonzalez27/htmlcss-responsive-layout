@@ -51,11 +51,17 @@ header{
     background-color: var(--blue);
     color: var(--white);
     padding: 10px 0;
+    width: 100%;
 }
 
 header a{
     color: var(--white);
     text-decoration: none;
+}
+
+header ul li {
+    list-style-type: none;
+    padding: 5px 16px;
 }
 
 .nav-menu{
@@ -449,5 +455,20 @@ footer a:link , footer a:visited{
 
     #about-us .about-image{
         flex-basis: 30%;
+    }
+}
+
+/* RESPONSIVE DESKTOP 900 */
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu{
+        display:block;
     }
 }
