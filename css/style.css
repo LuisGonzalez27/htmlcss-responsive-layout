@@ -222,7 +222,7 @@ margin-left: -50px;
     background-color: var(--white);
     color: var(--dark-grey);
     border-radius: 35px;
-    padding: 20px 60px;
+    padding: 20px 30px;
     margin-bottom: 1.5rem;
 }
 
@@ -498,5 +498,12 @@ footer a:link , footer a:visited{
         justify-content: end;
         flex-basis: 40%;
         padding: 0 2rem;
+    }
+
+    /* Features Section  */
+    #features .box-white-card{
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        flex-basis: calc(33.33% - 1.5rem);
     }
 }
