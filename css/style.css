@@ -423,4 +423,31 @@ footer a:link , footer a:visited{
         margin-right: 0.75rem;
         flex-basis: calc(50% - 1.5rem);
     }
+
+    /* About Us Section */
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-us .about-text{
+        flex-basis: 70%;
+        padding: 0rem 5rem 3rem 0;
+    }
+
+    #about-us .about-text h1{
+        font-size: 3rem;
+    }
+
+    .about-image h3{
+        font-size: 20px;
+    }
+
+    .about-image img{
+        width: 100%;
+    }
+
+    #about-us .about-image{
+        flex-basis: 30%;
+    }
 }
