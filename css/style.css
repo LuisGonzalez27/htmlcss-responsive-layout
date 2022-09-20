@@ -137,19 +137,12 @@ header ul li {
     padding: 2rem 0rem;
 }
 
-#planning div {
+#planning .app {
     background-color: var(--white);
     border-radius: 5rem;
-    padding: 2rem;
+    padding: 0 2rem;
     flex-direction: column;
-    gap: 2rem;
     color: var(--black);
-}
-
-#planning div p {
-    text-align: center;
-    padding: 0 2rem; 
-    line-height: 1.5;
 }
 
 #planning .cerchio {
@@ -486,5 +479,24 @@ footer a:link , footer a:visited{
 
     #intro .dx-get {
         width: 80%;
+    }
+
+    /* Planning Section */
+    #planning .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #planning .sx-plan {
+        flex-basis: 40%;
+        padding: 0 2rem;
+    }
+
+    #planning .dx-plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        flex-basis: 40%;
+        padding: 0 2rem;
     }
 }
