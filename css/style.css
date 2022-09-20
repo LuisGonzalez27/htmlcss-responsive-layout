@@ -506,4 +506,13 @@ footer a:link , footer a:visited{
         margin-right: 0.75rem;
         flex-basis: calc(33.33% - 1.5rem);
     }
+
+   /* About Us Section */
+    #about-us .about-text {
+    flex-basis: 80%;
+    }
+
+    #about-us .about-image {
+        flex-basis: 20%;
+    }
 }
