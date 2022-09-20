@@ -409,4 +409,18 @@ footer a:link , footer a:visited{
     .description p{
         padding: 0;
     }
+
+    /* Features Section  */
+    #features .big-box-white-card{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+
+    #features .box-white-card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        flex-basis: calc(50% - 1.5rem);
+    }
 }
